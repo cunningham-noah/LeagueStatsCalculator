@@ -565,6 +565,11 @@ champions = {
 		"CDR":0, "En":0, "EnP5":0},
 }
 
+champions = {key.lower(): value for key, value in champions.items()}
+
+for dictionary in champions:
+	champions[dictionary] = {key.lower(): value for key, value in champions[dictionary].items()}
+
 items = {
 	"":{},
 }
