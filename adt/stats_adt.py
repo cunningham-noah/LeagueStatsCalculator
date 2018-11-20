@@ -5,7 +5,7 @@
 champions = {
 	"Aatrox":
 		{"HP":580, "HP_Plus":80, "HP5":5, "HP5_Plus":0.25, "MP":0, "MP_Plus":0, "MP5":0, "MP5_Plus":0, "Armor":33, "Armor_Plus":3.25, "MR":32.1, "MR_Plus":1.25,
-		"Move_Speed":345, "Life_Steal":0, "Lethality":0, "Armor_Pen":0, "Magic_Pen":0, "Crit_Chance":0, "AS":0.651, "AS_Plus":0.025 "AD":60, "AD_Plus":5, "AP":0, "AP_Plus":0,
+		"Move_Speed":345, "Life_Steal":0, "Lethality":0, "Armor_Pen":0, "Magic_Pen":0, "Crit_Chance":0, "AS":0.651, "AS_Plus":0.025, "AD":60, "AD_Plus":5, "AP":0, "AP_Plus":0,
 		"CDR":0, "En":0, "EnP5":0},
 	"Ahri":
 		{"HP":526, "HP_Plus":92, "HP5":6.5, "HP5_Plus":0.6, "MP":418, "MP_Plus":25, "MP5":8, "MP5_Plus":0.8, "Armor":20.88, "Armor_Plus":3.5, "MR":30, "MR_Plus":0.5,
