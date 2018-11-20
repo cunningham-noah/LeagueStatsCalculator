@@ -1,31 +1,31 @@
 '''Attribute List:
    HP, HP_Plus, HP5, HP5_Plus, MP, MP_Plus, MP5, MP5_Plus, Armor, Armor_Plus, MR, MR_Plus, Move_Speed, Life_Steal, 
-   Lethality, Armor_Pen, Magic_Pen, Crit_Chance, AS, AS_Plus, AD, AD_Plus, AP, AP_Plus, CDR, En, EnP5'''
+   Lethality, Armor_Pen, Magic_Pen, Crit_Chance, AS, AS_Plus (Percentage), AD, AD_Plus, AP, AP_Plus, CDR, En, EnP5'''
    
 champions = {
 	"Aatrox":
 		{"HP":580, "HP_Plus":80, "HP5":5, "HP5_Plus":0.25, "MP":0, "MP_Plus":0, "MP5":0, "MP5_Plus":0, "Armor":33, "Armor_Plus":3.25, "MR":32.1, "MR_Plus":1.25,
-		"Move_Speed":345, "Life_Steal":0, "Lethality":0, "Armor_Pen":0, "Magic_Pen":0, "Crit_Chance":0, "AS":0, "AS_Plus":0 "AD":60, "AD_Plus":5, "AP":0, "AP_Plus":0,
+		"Move_Speed":345, "Life_Steal":0, "Lethality":0, "Armor_Pen":0, "Magic_Pen":0, "Crit_Chance":0, "AS":0.651, "AS_Plus":0.025 "AD":60, "AD_Plus":5, "AP":0, "AP_Plus":0,
 		"CDR":0, "En":0, "EnP5":0},
 	"Ahri":
-		{"HP":0, "HP_Plus":0, "HP5":0, "HP5_Plus":0, "MP":0, "MP_Plus":0, "MP5":0, "MP5_Plus":0, "Armor":0, "Armor_Plus":0, "MR":0, "MR_Plus":0,
-		"Move_Speed":0, "Life_Steal":0, "Lethality":0, "Armor_Pen":0, "Magic_Pen":0, "Crit_Chance":0, "AS":0, "AS_Plus":0, "AD":0, "AD_Plus":0, "AP":0, "AP_Plus":0,
+		{"HP":526, "HP_Plus":92, "HP5":6.5, "HP5_Plus":0.6, "MP":418, "MP_Plus":25, "MP5":8, "MP5_Plus":0.8, "Armor":20.88, "Armor_Plus":3.5, "MR":30, "MR_Plus":0.5,
+		"Move_Speed":330, "Life_Steal":0, "Lethality":0, "Armor_Pen":0, "Magic_Pen":0, "Crit_Chance":0, "AS":0.668, "AS_Plus":0.02, "AD":53.04, "AD_Plus":3, "AP":0, "AP_Plus":0,
 		"CDR":0, "En":0, "EnP5":0},
 	"Akali":
-		{"HP":0, "HP_Plus":0, "HP5":0, "HP5_Plus":0, "MP":0, "MP_Plus":0, "MP5":0, "MP5_Plus":0, "Armor":0, "Armor_Plus":0, "MR":0, "MR_Plus":0,
-		"Move_Speed":0, "Life_Steal":0, "Lethality":0, "Armor_Pen":0, "Magic_Pen":0, "Crit_Chance":0, "AS":0, "AS_Plus":0, "AD":0, "AD_Plus":0, "AP":0, "AP_Plus":0,
-		"CDR":0, "En":0, "EnP5":0},
+		{"HP":550, "HP_Plus":85, "HP5":3.5, "HP5_Plus":0.5, "MP":0, "MP_Plus":0, "MP5":0, "MP5_Plus":0, "Armor":23, "Armor_Plus":3.5, "MR":32.1, "MR_Plus":1.25,
+		"Move_Speed":345, "Life_Steal":0, "Lethality":0, "Armor_Pen":0, "Magic_Pen":0, "Crit_Chance":0, "AS":0.625, "AS_Plus":0.032, "AD":62.4, "AD_Plus":3.3, "AP":0, "AP_Plus":0,
+		"CDR":0, "En":200, "EnP5":50},
 	"Alistar":
-		{"HP":0, "HP_Plus":0, "HP5":0, "HP5_Plus":0, "MP":0, "MP_Plus":0, "MP5":0, "MP5_Plus":0, "Armor":0, "Armor_Plus":0, "MR":0, "MR_Plus":0,
-		"Move_Speed":0, "Life_Steal":0, "Lethality":0, "Armor_Pen":0, "Magic_Pen":0, "Crit_Chance":0, "AS":0, "AS_Plus":0, "AD":0, "AD_Plus":0, "AP":0, "AP_Plus":0,
+		{"HP":573.36, "HP_Plus":106, "HP5":8.5, "HP5_Plus":0.85, "MP":278.84, "MP_Plus":38, "MP5":8.5, "MP5_Plus":0.8, "Armor":44, "Armor_Plus":3.5, "MR":32.1, "MR_Plus":1.25,
+		"Move_Speed":330, "Life_Steal":0, "Lethality":0, "Armor_Pen":0, "Magic_Pen":0, "Crit_Chance":0, "AS":0.625, "AS_Plus":0.02125, "AD":61.112, "AD_Plus":3.62, "AP":0, "AP_Plus":0,
 		"CDR":0, "En":0, "EnP5":0},
 	"Amumu":
-		{"HP":0, "HP_Plus":0, "HP5":0, "HP5_Plus":0, "MP":0, "MP_Plus":0, "MP5":0, "MP5_Plus":0, "Armor":0, "Armor_Plus":0, "MR":0, "MR_Plus":0,
-		"Move_Speed":0, "Life_Steal":0, "Lethality":0, "Armor_Pen":0, "Magic_Pen":0, "Crit_Chance":0, "AS":0, "AS_Plus":0, "AD":0, "AD_Plus":0, "AP":0, "AP_Plus":0,
+		{"HP":613.12, "HP_Plus":84, "HP5":9, "HP5_Plus":0.85, "MP":287.2, "MP_Plus":40, "MP5":7.382, "MP5_Plus":0.525, "Armor":33, "Armor_Plus":3.8, "MR":32.1, "MR_Plus":1.25,
+		"Move_Speed":335, "Life_Steal":0, "Lethality":0, "Armor_Pen":0, "Magic_Pen":0, "Crit_Chance":0, "AS":0.638, "AS_Plus":'''15.3+2.18%''', "AD":53.38, "AD_Plus":3.8, "AP":0, "AP_Plus":0,
 		"CDR":0, "En":0, "EnP5":0},
 	"Anivia":
-		{"HP":0, "HP_Plus":0, "HP5":0, "HP5_Plus":0, "MP":0, "MP_Plus":0, "MP5":0, "MP5_Plus":0, "Armor":0, "Armor_Plus":0, "MR":0, "MR_Plus":0,
-		"Move_Speed":0, "Life_Steal":0, "Lethality":0, "Armor_Pen":0, "Magic_Pen":0, "Crit_Chance":0, "AS":0, "AS_Plus":0, "AD":0, "AD_Plus":0, "AP":0, "AP_Plus":0,
+		{"HP":480, "HP_Plus":82, "HP5":5.5, "HP5_Plus":0.55, "MP":495, "MP_Plus":25, "MP5":8, "MP5_Plus":0.8, "Armor":21.22, "Armor_Plus":4, "MR":30, "MR_Plus":0.5,
+		"Move_Speed":325, "Life_Steal":0, "Lethality":0, "Armor_Pen":0, "Magic_Pen":0, "Crit_Chance":0, "AS":0.625, "AS_Plus":0.0168, "AD":51.376, "AD_Plus":3.2, "AP":0, "AP_Plus":0,
 		"CDR":0, "En":0, "EnP5":0},
 	"Annie":
 		{"HP":0, "HP_Plus":0, "HP5":0, "HP5_Plus":0, "MP":0, "MP_Plus":0, "MP5":0, "MP5_Plus":0, "Armor":0, "Armor_Plus":0, "MR":0, "MR_Plus":0,
