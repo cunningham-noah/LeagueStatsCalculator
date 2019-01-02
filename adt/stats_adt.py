@@ -1,13 +1,12 @@
 '''
 Attribute List:
    hp, hpPerLevel, hpRegen, hpRegenPerLevel, mp, mpPerLevel, mpRegen, mpRegenPerLevel, armor, 
-   armorPerLevel, mr, mrPerLevel, moveSpeed, lifeSteal, lethality, armorPen, magicPen, 
+   armorPerLevel, mr, mrPerLevel, tenacity, moveSpeed, lifeSteal, lethality, armorPen, magicPen, 
    critChance, attackSpeed, attackSpeedPerLevel (Percenergytage), attackDamage, attackDamagePerLevel, 
-   abilityPower, CDR, energyergy, energyRegen, goldCost, additionalEffects
+   abilityPower, CDR, energyergy, energyRegen, goldCost, goldPerTen, additionalEffects
 '''
    
 champions = {
-<<<<<<< mattackSpeedter
 	"Aatrox": {
 		"hp":580, 
 		"hpPerLevel":80,
@@ -26,7 +25,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0, 
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0.651, 
 		"attackSpeedPerLevel":0.025, 
 		"attackDamage":60, 
@@ -35,6 +34,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Ahri": {
 		"hp":526,
@@ -54,7 +54,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0,
-		"critChange":0,
+		"critChance":0,
 		"attackSpeed":0.668, 
 		"attackSpeedPerLevel":0.02,
 		"attackDamage":53.04, 
@@ -63,6 +63,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Akali":{
 		"hp":550,
@@ -81,7 +82,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0, 
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0.625, 
 		"attackSpeedPerLevel":0.032,
 		"attackDamage":62.4, 
@@ -90,6 +91,7 @@ champions = {
 		"CDR":0,
 		"energy":200, 
 		"energyRegen":50
+		"tenacity":0,
 	},
 	"Alistar": {
 		"hp":573.36,
@@ -109,7 +111,7 @@ champions = {
 		"lethality":0,
 		"armorPen":0, 
 		"magicPen":0,
-		"critChange":0,
+		"critChance":0,
 		"attackSpeed":0.625,
 		"attackSpeedPerLevel":0.02125,
 		"attackDamage":61.112, 
@@ -118,6 +120,7 @@ champions = {
 		"CDR":0,
 		"energy":0,
 		"energyRegen":0
+		"tenacity":0,
         },
 	"Amumu": {
 		"hp":613.12,
@@ -137,7 +140,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0, 
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0.638,
 		"attackSpeedPerLevel":'''15.3+2.18%''',
 		"attackDamage":53.38, 
@@ -146,6 +149,7 @@ champions = {
 		"CDR":0,
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Anivia": {
 		"hp":480, 
@@ -165,7 +169,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0, 
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0.625, 
 		"attackSpeedPerLevel":0.0168,
 		"attackDamage":51.376,
@@ -174,150 +178,156 @@ champions = {
 		"CDR":0,
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Annie": {
-		"hp":0,
-		"hpPerLevel":0, 
-		"hpRegen":0,
-		"hpRegenPerLevel":0, 
-		"mp":0,
-		"mpPerLevel":0,
-		"mpRegen":0,
-		"mpRegenPerLevel":0,
-		"armor":0, 
-		"armorPerLevel":0,
-		"mr":0, 
-		"mrPerLevel":0,
-		"moveSpeed":0, 
+		"hp":524,
+		"hpPerLevel":88, 
+		"hpRegen":5.5,
+		"hpRegenPerLevel":0.55, 
+		"mp":418,
+		"mpPerLevel":25,
+		"mpRegen":8,
+		"mpRegenPerLevel":0.8,
+		"armor":19.22, 
+		"armorPerLevel":4,
+		"mr":30, 
+		"mrPerLevel":0.5,
+		"moveSpeed":335, 
 		"lifeSteal":0, 
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
-		"attackSpeed":0, 
-		"attackSpeedPerLevel":0, 
-		"attackDamage":0, 
-		"attackDamagePerLevel":0, 
+		"critChance":0, 
+		"attackSpeed":0.579, 
+		"attackSpeedPerLevel":"1.36%", 
+		"attackDamage":50.41, 
+		"attackDamagePerLevel":2.625, 
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Ashe": {
-		"hp":0,
-		"hpPerLevel":0, 
-		"hpRegen":0,
-		"hpRegenPerLevel":0, 
-		"mp":0,
-		"mpPerLevel":0,
-		"mpRegen":0,
-		"mpRegenPerLevel":0,
-		"armor":0, 
-		"armorPerLevel":0,
-		"mr":0, 
-		"mrPerLevel":0,
-		"moveSpeed":0, 
+		"hp":539,
+		"hpPerLevel":85, 
+		"hpRegen":3.5,
+		"hpRegenPerLevel":0.55, 
+		"mp":280,
+		"mpPerLevel":32,
+		"mpRegen":6.972,
+		"mpRegenPerLevel":0.4,
+		"armor":26, 
+		"armorPerLevel":3.4,
+		"mr":30, 
+		"mrPerLevel":0.5,
+		"moveSpeed":325, 
 		"lifeSteal":0, 
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
-		"attackSpeed":0, 
-		"attackSpeedPerLevel":0, 
-		"attackDamage":0, 
-		"attackDamagePerLevel":0, 
+		"critChance":0, 
+		"attackSpeed":0.658, 
+		"attackSpeedPerLevel":"3.33%", 
+		"attackDamage":61, 
+		"attackDamagePerLevel":2.96, 
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Aurelion Sol": {
-		"hp":0,
-		"hpPerLevel":0, 
-		"hpRegen":0,
-		"hpRegenPerLevel":0, 
-		"mp":0,
-		"mpPerLevel":0,
-		"mpRegen":0,
-		"mpRegenPerLevel":0,
-		"armor":0, 
-		"armorPerLevel":0,
-		"mr":0, 
-		"mrPerLevel":0,
-		"moveSpeed":0, 
+		"hp":510,
+		"hpPerLevel":92, 
+		"hpRegen":7,
+		"hpRegenPerLevel":0.6, 
+		"mp":350,
+		"mpPerLevel":50,
+		"mpRegen":6,
+		"mpRegenPerLevel":0.8,
+		"armor":19, 
+		"armorPerLevel":3.6,
+		"mr":30, 
+		"mrPerLevel":0.5,
+		"moveSpeed":325, 
 		"lifeSteal":0, 
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
-		"attackSpeed":0, 
-		"attackSpeedPerLevel":0, 
-		"attackDamage":0, 
-		"attackDamagePerLevel":0, 
+		"critChance":0, 
+		"attackSpeed":0.625, 
+		"attackSpeedPerLevel":"1.36%", 
+		"attackDamage":57, 
+		"attackDamagePerLevel":3.2, 
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Azir": {
-		"hp":0,
-		"hpPerLevel":0, 
-		"hpRegen":0,
-		"hpRegenPerLevel":0, 
-		"mp":0,
-		"mpPerLevel":0,
-		"mpRegen":0,
-		"mpRegenPerLevel":0,
-		"armor":0, 
-		"armorPerLevel":0,
-		"mr":0, 
-		"mrPerLevel":0,
-		"moveSpeed":0, 
+		"hp":552,
+		"hpPerLevel":92, 
+		"hpRegen":7,
+		"hpRegenPerLevel":0.55, 
+		"mp":438,
+		"mpPerLevel":21,
+		"mpRegen":8,
+		"mpRegenPerLevel":0.8,
+		"armor":19.04, 
+		"armorPerLevel":3,
+		"mr":30, 
+		"mrPerLevel":0.5,
+		"moveSpeed":335, 
 		"lifeSteal":0, 
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
-		"attackSpeed":0, 
-		"attackSpeedPerLevel":0, 
-		"attackDamage":0, 
-		"attackDamagePerLevel":0, 
+		"critChance":0, 
+		"attackSpeed":0.625, 
+		"attackSpeedPerLevel":"1.5%", 
+		"attackDamage":52, 
+		"attackDamagePerLevel":2.8, 
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Bard": {
-		"hp":0,
-		"hpPerLevel":0, 
-		"hpRegen":0,
-		"hpRegenPerLevel":0, 
-		"mp":0,
-		"mpPerLevel":0,
-		"mpRegen":0,
-		"mpRegenPerLevel":0,
-		"armor":0, 
-		"armorPerLevel":0,
-		"mr":0, 
-		"mrPerLevel":0,
-		"moveSpeed":0, 
+		"hp":535,
+		"hpPerLevel":89, 
+		"hpRegen":7.5,
+		"hpRegenPerLevel":0.55, 
+		"mp":350,
+		"mpPerLevel":50,
+		"mpRegen":6,
+		"mpRegenPerLevel":0.45,
+		"armor":34, 
+		"armorPerLevel":4,
+		"mr":30, 
+		"mrPerLevel":0.5,
+		"moveSpeed":330, 
 		"lifeSteal":0, 
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
-		"attackSpeed":0, 
-		"attackSpeedPerLevel":0, 
-		"attackDamage":0, 
-		"attackDamagePerLevel":0, 
+		"critChance":0, 
+		"attackSpeed":0.625, 
+		"attackSpeedPerLevel":"0.2%", 
+		"attackDamage":52, 
+		"attackDamagePerLevel":3, 
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Blitzcrank": {
-		"hp":0,
-		"hpPerLevel":0, 
+		"hp":582.6,
+		"hpPerLevel":95, 
 		"hpRegen":0,
 		"hpRegenPerLevel":0, 
 		"mp":0,
@@ -333,7 +343,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -342,6 +352,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Brand": {
 		"hp":0,
@@ -361,7 +372,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -370,6 +381,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Braum": {
 		"hp":0,
@@ -389,7 +401,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -398,6 +410,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Caitlyn": {
 		"hp":0,
@@ -417,7 +430,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -426,6 +439,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Camille": {
 		"hp":0,
@@ -445,7 +459,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -454,6 +468,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Cassiopeia": {
 		"hp":0,
@@ -473,7 +488,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -482,6 +497,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Cho'Gath": {
 		"hp":0,
@@ -501,7 +517,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -510,6 +526,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Corki": {
 		"hp":0,
@@ -529,7 +546,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -538,6 +555,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Darius": {
 		"hp":0,
@@ -557,7 +575,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -566,6 +584,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Diana": {
 		"hp":0,
@@ -585,7 +604,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -594,6 +613,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Dr. Mundo": {
 		"hp":0,
@@ -613,7 +633,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -622,6 +642,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Draven": {
 		"hp":0,
@@ -641,7 +662,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -650,6 +671,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Ekko": {
 		"hp":0,
@@ -669,7 +691,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -678,6 +700,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Elise": {
 		"hp":0,
@@ -697,7 +720,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -706,6 +729,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Evelynn": {
 		"hp":0,
@@ -725,7 +749,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -734,6 +758,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Ezreal": {
 		"hp":0,
@@ -753,7 +778,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -762,6 +787,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Fiddlesticks": {
 		"hp":0,
@@ -781,7 +807,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -790,6 +816,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Fiora": {
 		"hp":0,
@@ -809,7 +836,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -818,6 +845,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Fizz": {
 		"hp":0,
@@ -837,7 +865,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -846,6 +874,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Galio": {
 		"hp":0,
@@ -865,7 +894,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -874,6 +903,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Gangplank": {
 		"hp":0,
@@ -893,7 +923,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -902,6 +932,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Garen": {
 		"hp":0,
@@ -921,7 +952,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -930,6 +961,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Gnar": {
 		"hp":0,
@@ -949,7 +981,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -958,6 +990,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Gragas": {
 		"hp":0,
@@ -977,7 +1010,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -986,6 +1019,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Graves": {
 		"hp":0,
@@ -1005,7 +1039,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -1014,6 +1048,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Hecarim": {
 		"hp":0,
@@ -1033,7 +1068,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -1042,6 +1077,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Heimerdinger": {
 		"hp":0,
@@ -1061,7 +1097,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -1070,6 +1106,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Illaoi": {
 		"hp":0,
@@ -1089,7 +1126,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -1098,6 +1135,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Irelia": {
 		"hp":0,
@@ -1117,7 +1155,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -1126,6 +1164,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Ivern": {
 		"hp":0,
@@ -1145,7 +1184,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -1154,6 +1193,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Janna": {
 		"hp":0,
@@ -1173,7 +1213,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -1182,6 +1222,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Jarvan IV": {
 		"hp":0,
@@ -1201,7 +1242,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -1210,6 +1251,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Jax": {
 		"hp":0,
@@ -1229,7 +1271,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -1238,6 +1280,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Jayce": {
 		"hp":0,
@@ -1257,7 +1300,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -1266,6 +1309,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Jhin": {
 		"hp":0,
@@ -1285,7 +1329,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -1294,6 +1338,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Jinx": {
 		"hp":0,
@@ -1313,7 +1358,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -1322,6 +1367,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Kai'Sa": {
 		"hp":0,
@@ -1341,7 +1387,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -1350,6 +1396,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Kalista": {
 		"hp":0,
@@ -1369,7 +1416,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -1378,6 +1425,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Karma": {
 		"hp":0,
@@ -1397,7 +1445,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -1406,6 +1454,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Karthus": {
 		"hp":0,
@@ -1425,7 +1474,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -1434,6 +1483,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Kassadin": {
 		"hp":0,
@@ -1453,7 +1503,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -1462,6 +1512,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Katarina": {
 		"hp":0,
@@ -1481,7 +1532,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -1490,6 +1541,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Kayle": {
 		"hp":0,
@@ -1509,7 +1561,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -1518,6 +1570,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Kayn": {
 		"hp":0,
@@ -1537,7 +1590,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -1546,6 +1599,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Kennen": {
 		"hp":0,
@@ -1565,7 +1619,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -1574,6 +1628,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Kha'Zix": {
 		"hp":0,
@@ -1593,16 +1648,16 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
 		"attackDamagePerLevel":0, 
 		"abilityPower":0, 
-		
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Kindred": {
 		"hp":0,
@@ -1622,16 +1677,16 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
 		"attackDamagePerLevel":0, 
 		"abilityPower":0, 
-		
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Kled": {
 		"hp":0,
@@ -1651,16 +1706,16 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
 		"attackDamagePerLevel":0, 
 		"abilityPower":0, 
-		
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Kog'Maw": {
 		"hp":0,
@@ -1680,16 +1735,16 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
 		"attackDamagePerLevel":0, 
 		"abilityPower":0, 
-		
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"LeBlanc": {
 		"hp":0,
@@ -1709,16 +1764,16 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
 		"attackDamagePerLevel":0, 
 		"abilityPower":0, 
-		
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Lee Sin": {
 		"hp":0,
@@ -1738,16 +1793,16 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
 		"attackDamagePerLevel":0, 
 		"abilityPower":0, 
-		
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Leona" :{
 		"hp":0,
@@ -1767,16 +1822,16 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
 		"attackDamagePerLevel":0, 
 		"abilityPower":0, 
-		
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Lissandra": {
 		"hp":0,
@@ -1796,16 +1851,16 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
 		"attackDamagePerLevel":0, 
 		"abilityPower":0, 
-		
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Lucian": {
 		"hp":0,
@@ -1825,16 +1880,16 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
 		"attackDamagePerLevel":0, 
 		"abilityPower":0, 
-		
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Lulu": {
 		"hp":0,
@@ -1854,16 +1909,16 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
 		"attackDamagePerLevel":0, 
 		"abilityPower":0, 
-		
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Lux": {
 		"hp":0,
@@ -1883,16 +1938,16 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
 		"attackDamagePerLevel":0, 
 		"abilityPower":0, 
-		
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Malphite": {
 		"hp":0,
@@ -1912,16 +1967,16 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
 		"attackDamagePerLevel":0, 
 		"abilityPower":0, 
-		
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Malzahar": {
 		"hp":0,
@@ -1941,16 +1996,16 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
 		"attackDamagePerLevel":0, 
 		"abilityPower":0, 
-		
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Maokai": {
 		"hp":0,
@@ -1970,16 +2025,16 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
 		"attackDamagePerLevel":0, 
 		"abilityPower":0, 
-		
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Master Yi": {
 		"hp":0,
@@ -1999,16 +2054,16 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
 		"attackDamagePerLevel":0, 
 		"abilityPower":0, 
-		
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Miss Fortune": {
 		"hp":0,
@@ -2028,16 +2083,16 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
 		"attackDamagePerLevel":0, 
 		"abilityPower":0, 
-		
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Mordekaiser": {
 		"hp":0,
@@ -2057,16 +2112,16 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
 		"attackDamagePerLevel":0, 
 		"abilityPower":0, 
-		
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Morgana": {
 		"hp":0,
@@ -2086,16 +2141,16 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
 		"attackDamagePerLevel":0, 
 		"abilityPower":0, 
-		
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Nami": {
 		"hp":0,
@@ -2115,16 +2170,16 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
 		"attackDamagePerLevel":0, 
 		"abilityPower":0, 
-		
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Nasus": {
 		"hp":0,
@@ -2144,16 +2199,16 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
 		"attackDamagePerLevel":0, 
 		"abilityPower":0, 
-		
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Nautilus": {
 		"hp":0,
@@ -2173,16 +2228,45 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
 		"attackDamagePerLevel":0, 
 		"abilityPower":0, 
-		
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
+	},
+	"Neeko": {
+		"hp":0,
+		"hpPerLevel":0, 
+		"hpRegen":0,
+		"hpRegenPerLevel":0, 
+		"mp":0,
+		"mpPerLevel":0,
+		"mpRegen":0,
+		"mpRegenPerLevel":0,
+		"armor":0, 
+		"armorPerLevel":0,
+		"mr":0, 
+		"mrPerLevel":0,
+		"moveSpeed":0, 
+		"lifeSteal":0, 
+		"lethality":0, 
+		"armorPen":0,
+		"magicPen":0, 
+		"critChance":0, 
+		"attackSpeed":0, 
+		"attackSpeedPerLevel":0, 
+		"attackDamage":0, 
+		"attackDamagePerLevel":0, 
+		"abilityPower":0, 
+		"CDR":0, 
+		"energy":0, 
+		"energyRegen":0
+		"tenacity":0,
 	},
 	"Nidalee": {
 		"hp":0,
@@ -2202,16 +2286,16 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
 		"attackDamagePerLevel":0, 
 		"abilityPower":0, 
-		
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Nocturne": {
 		"hp":0,
@@ -2231,16 +2315,16 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
 		"attackDamagePerLevel":0, 
 		"abilityPower":0, 
-		
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Nunu & Willump": {
 		"hp":0,
@@ -2260,16 +2344,16 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
 		"attackDamagePerLevel":0, 
 		"abilityPower":0, 
-		
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Olaf": {
 		"hp":0,
@@ -2289,16 +2373,16 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
 		"attackDamagePerLevel":0, 
 		"abilityPower":0, 
-		
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Orianna": {
 		"hp":0,
@@ -2318,16 +2402,16 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
 		"attackDamagePerLevel":0, 
 		"abilityPower":0, 
-		
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Ornn": {
 		"hp":0,
@@ -2347,16 +2431,16 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
 		"attackDamagePerLevel":0, 
 		"abilityPower":0, 
-		
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Pantheon": {
 		"hp":0,
@@ -2376,16 +2460,16 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
 		"attackDamagePerLevel":0, 
 		"abilityPower":0, 
-		
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Poppy": {
 		"hp":0,
@@ -2405,16 +2489,16 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
 		"attackDamagePerLevel":0, 
 		"abilityPower":0, 
-		
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Pyke": {
 		"hp":0,
@@ -2434,16 +2518,16 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
 		"attackDamagePerLevel":0, 
 		"abilityPower":0, 
-		
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Quinn": {
 		"hp":0,
@@ -2463,16 +2547,16 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
 		"attackDamagePerLevel":0, 
 		"abilityPower":0, 
-		
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Rakan": {
 		"hp":0,
@@ -2492,16 +2576,16 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
 		"attackDamagePerLevel":0, 
 		"abilityPower":0, 
-		
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Rammus": {
 		"hp":0,
@@ -2521,16 +2605,16 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
 		"attackDamagePerLevel":0, 
 		"abilityPower":0, 
-		
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Rek'Sai": {
 		"hp":0,
@@ -2550,16 +2634,16 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
 		"attackDamagePerLevel":0, 
 		"abilityPower":0, 
-		
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Renekton": {
 		"hp":0,
@@ -2579,7 +2663,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -2588,6 +2672,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Rengar": {
 		"hp":0,
@@ -2607,7 +2692,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -2616,6 +2701,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Riven": {
 		"hp":0,
@@ -2635,7 +2721,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -2644,6 +2730,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Rumble": {
 		"hp":0,
@@ -2663,7 +2750,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -2672,6 +2759,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Ryze": {
 		"hp":0,
@@ -2691,7 +2779,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -2700,6 +2788,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Sejuani": {
 		"hp":0,
@@ -2719,7 +2808,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -2728,6 +2817,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Shaco": {
 		"hp":0,
@@ -2747,7 +2837,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -2756,6 +2846,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Shen": {
 		"hp":0,
@@ -2775,7 +2866,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -2784,6 +2875,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Shyvana": {
 		"hp":0,
@@ -2803,7 +2895,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -2812,6 +2904,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Singed": {
 		"hp":0,
@@ -2831,7 +2924,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -2840,6 +2933,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Sion": {
 		"hp":0,
@@ -2859,7 +2953,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -2868,6 +2962,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Sivir": {
 		"hp":0,
@@ -2887,7 +2982,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -2896,6 +2991,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Skarner": {
 		"hp":0,
@@ -2915,7 +3011,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -2924,6 +3020,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Sona": {
 		"hp":0,
@@ -2943,7 +3040,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -2952,6 +3049,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Soraka": {
 		"hp":0,
@@ -2971,7 +3069,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -2980,6 +3078,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Swain": {
 		"hp":0,
@@ -2999,7 +3098,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -3008,6 +3107,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Syndra": {
 		"hp":0,
@@ -3027,7 +3127,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -3036,6 +3136,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Tahm Kench": {
 		"hp":0,
@@ -3055,7 +3156,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -3064,6 +3165,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Taliyah": {
 		"hp":0,
@@ -3083,7 +3185,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -3092,6 +3194,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Talon": {
 		"hp":0,
@@ -3111,7 +3214,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -3120,6 +3223,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Taric": {
 		"hp":0,
@@ -3139,7 +3243,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -3148,6 +3252,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Teemo": {
 		"hp":0,
@@ -3167,7 +3272,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -3176,6 +3281,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Thresh": {
 		"hp":0,
@@ -3195,7 +3301,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -3204,6 +3310,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Tristana": {
 		"hp":0,
@@ -3223,7 +3330,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -3232,6 +3339,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Trundle": {
 		"hp":0,
@@ -3251,7 +3359,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -3260,6 +3368,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Tryndamere": {
 		"hp":0,
@@ -3279,7 +3388,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -3288,6 +3397,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Twisted Fate": {
 		"hp":0,
@@ -3307,7 +3417,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -3316,6 +3426,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Twitch": {
 		"hp":0,
@@ -3335,7 +3446,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -3344,6 +3455,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Udyr": {
 		"hp":0,
@@ -3363,7 +3475,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -3372,6 +3484,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Urgot": {
 		"hp":0,
@@ -3391,7 +3504,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -3400,6 +3513,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Varus": {
 		"hp":0,
@@ -3419,7 +3533,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -3428,6 +3542,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Vayne": {
 		"hp":0,
@@ -3447,7 +3562,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -3456,6 +3571,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Veigar": {
 		"hp":0,
@@ -3475,7 +3591,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -3484,6 +3600,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Vel'Koz": {
 		"hp":0,
@@ -3503,7 +3620,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -3512,6 +3629,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Vi": {
 		"hp":0,
@@ -3531,7 +3649,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -3540,6 +3658,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Viktor": {
 		"hp":0,
@@ -3559,7 +3678,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -3568,6 +3687,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Vladimir": {
 		"hp":0,
@@ -3587,7 +3707,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -3596,6 +3716,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Volibear": {
 		"hp":0,
@@ -3615,7 +3736,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -3624,6 +3745,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Warwick": {
 		"hp":0,
@@ -3643,7 +3765,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -3652,6 +3774,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Wukong": {
 		"hp":0,
@@ -3671,7 +3794,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -3680,6 +3803,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Xerath": {
 		"hp":0,
@@ -3699,7 +3823,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -3708,6 +3832,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Xin Zhao": {
 		"hp":0,
@@ -3727,7 +3852,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -3736,6 +3861,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Yasuo": {
 		"hp":0,
@@ -3755,7 +3881,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -3764,6 +3890,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Yorick": {
 		"hp":0,
@@ -3783,7 +3910,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -3792,6 +3919,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Zac": {
 		"hp":0,
@@ -3811,7 +3939,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -3820,6 +3948,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Zed": {
 		"hp":0,
@@ -3839,7 +3968,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -3848,6 +3977,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Ziggs": {
 		"hp":0,
@@ -3867,7 +3997,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -3876,6 +4006,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Zilean": {
 		"hp":0,
@@ -3895,7 +4026,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -3904,6 +4035,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Zoe": {
 		"hp":0,
@@ -3923,7 +4055,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -3932,6 +4064,7 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 	"Zyra": {
 		"hp":0,
@@ -3951,7 +4084,7 @@ champions = {
 		"lethality":0, 
 		"armorPen":0,
 		"magicPen":0, 
-		"critChange":0, 
+		"critChance":0, 
 		"attackSpeed":0, 
 		"attackSpeedPerLevel":0, 
 		"attackDamage":0, 
@@ -3960,11 +4093,12 @@ champions = {
 		"CDR":0, 
 		"energy":0, 
 		"energyRegen":0
+		"tenacity":0,
 	},
 }
 
 
-def lowercattackSpeede_all_dict_items():
+def lowercase_all_dict_items():
 	"""Convert all keys, values, and keys of values to lowercattackSpeede in the
 	champions dictionary for user input validation. O(n*m) time O(1) space.
 	"""
@@ -3972,13 +4106,12 @@ def lowercattackSpeede_all_dict_items():
 	for dictionary in champions:
 		champions[dictionary] = {key.lower(): value for key, value in champions[dictionary].items()}
 
-lowercattackSpeede_all_dict_items()
+lowercase_all_dict_items()
 
 champions = {key.lower(): value for key, value in champions.items()}
 
 for dictionary in champions:
 	champions[dictionary] = {key.lower(): value for key, value in champions[dictionary].items()}
->>>>>>> mattackSpeedter
 
 
 items = {
@@ -3999,25 +4132,103 @@ items = {
 		"CDR":0.10,
 		"goldCost":2800,
 	},
-	"Aegis of the Legion":{},
-	"Aether Wisp":{},
-	"Amplifying Tome":{},
-	"Ancient Coin":{},
+	"Aegis of the Legion":{
+		"armor":30,
+		"mr":30,
+		"goldCost":1100,
+	},
+	"Aether Wisp":{
+		"abilityPower":30,
+		"moveSpeed":"0.05%",
+		"additionalEffects":'''UNIQUE Passive: +5% Movement Speed''',
+	},
+	"Amplifying Tome":{
+		"abilityPower":20,
+		"goldCost":435,
+	},
+	"Ancient Coin":{
+		"moveSpeed":5,
+		"CDR":"0.05%",
+		"goldPerTen":2,
+		"goldCost":400,
+		"additionalEffects":,
+	},
 	"Arcane Sweeper":{},
-	"Archangel's Staff":{},
+	"Archangel's Staff":{
+		"abilityPower":50,
+		"mp":650,
+		"CDR":"0.10%",
+		"goldCost":3200,
+		"additionalEffects":,
+	},
 	"Archangel's Staff (Quick Charge)":{},
-	"Ardent Censer":{},
-	"Athene's Unholy Grail":{},
-	"Atma's Reckoning":{},
-	"B. F. Sword":{},
-	"Bami's Cinder":{},
-	"Banshee's Veil":{},
-	"Berserker's Greaves":{},
-	"Bilgewater Cutlass":{},
-	"Blade of the Ruined King":{},
-	"Blasting Wand":{},
-	"Boots of Mobility":{},
-	"Boots of Speed":{},
+	"Ardent Censer":{
+		"abilityPower":60,
+		"CDR":"0.10%",
+		"mpRegen":"0.50%",
+		"goldCost":2300,
+		"additionalEffects":,
+	},
+	"Athene's Unholy Grail":{
+		"abilityPower":30,
+		"mr":30,
+		"CDR":"0.10%",
+		"mpRegen":"100%",
+		"goldCost":2100,
+		"additionalEffects":,
+	},
+	"Atma's Reckoning":{
+		"attackDamage":25,
+		"armor":30,
+		"mr":30,
+		"goldCost":2900,
+		"additionalEffects":,
+	},
+	"B. F. Sword":{
+		"attackDamage":40,
+		"goldCost":1300,
+	},
+	"Bami's Cinder":{
+		"hp":200,
+		"goldCost":900,
+		"additionalEffects":,
+	},
+	"Banshee's Veil":{
+		"abilityPower":75,
+		"mr":60,
+		"CDR":"0.10%",
+		"additionalEffects":,
+	},
+	"Berserker's Greaves":{
+		"attackSpeed":"35%",
+		"moveSpeed":45,
+		"additionalEffects":'''UNIQUE Passive - Enhanced Movement: +45 Movement Speed''',
+	},
+	"Bilgewater Cutlass":{
+		"attackDamage":25,
+		"lifeSteal":"10%",
+		"goldCost":1500,
+		"additionalEffects":,
+	},
+	"Blade of the Ruined King":{
+		"attackDamage":40,
+		"attackSpeed":"25%",
+		"lifeSteal":"12%",
+		"goldCost":3200,
+		"additionalEffects":,
+	},
+	"Blasting Wand":{
+		"abilityPower":40,
+		"goldCost":850,
+	},
+	"Boots of Mobility":{
+		"moveSpeed":"25, increase to 115 after 5 sec",
+		"goldCost":900,
+		"additionalEffects":,
+	},
+	"Boots of Speed":{
+		"":,
+	},
 	"Boots of Swiftness":{},
 	"Bramble Vest":{},
 	"Brawler's Gloves":{},
