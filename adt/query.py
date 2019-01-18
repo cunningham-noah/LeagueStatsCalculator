@@ -18,25 +18,10 @@ class Query(object):
     def multiply_helper(self, attrs):
         stats_dict = dict()
         for x in range(len(attrs)):
-            if attrs[x][1][:2] == 'hp':
-                if attrs[x][1][2] == 'R':
-                    stats_dict.update({attrs[x][0]: (champions[self.champion][attrs[x][1]]*self.multiplier)+champions[self.champion]['hpRegen']})
-                else:
-                    stats_dict.update({attrs[x][0]: (champions[self.champion][attrs[x][1]]*self.multiplier)+champions[self.champion]['hp']})
-            elif attrs[x][1][:2] == 'mp':
-                if attrs[x][1][2] == 'R':
-                    stats_dict.update({attrs[x][0]: (champions[self.champion][attrs[x][1]]*self.multiplier)+champions[self.champion]['mpRegen']})
-                else:
-                    stats_dict.update({attrs[x][0]: (champions[self.champion][attrs[x][1]]*self.multiplier)+champions[self.champion]['mp']})
-            elif attrs[x][1][:2] == 'mr':
-                stats_dict.update({attrs[x][0]: (champions[self.champion][attrs[x][1]]*self.multiplier)+champions[self.champion]['mr']})
-            elif attrs[x][1][:2] == 'ar':
-                stats_dict.update({attrs[x][0]: (champions[self.champion][attrs[x][1]]*self.multiplier)+champions[self.champion]['armor']})
-            elif attrs[x][1][:2] == 'at':
-                if attrs[x][1][6] == 'S':
-                    stats_dict.update({attrs[x][0]: (champions[self.champion][attrs[x][1]]*self.multiplier)+champions[self.champion]['attackSpeed']})
-                else:
-                    stats_dict.update({attrs[x][0]: (champions[self.champion][attrs[x][1]]*self.multiplier)+champions[self.champion]['attackDamage']})
+            champion = champions[self.champion]
+            base = attrs[x][0]
+            stat = attrs[x][1]
+            stats_dict.update({base: (champion[stat]*self.multiplier)+champion[base]})
         return stats_dict
 
     def multiply(self):
