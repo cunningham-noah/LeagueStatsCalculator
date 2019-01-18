@@ -33,7 +33,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Ahri": {
@@ -62,7 +62,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Akali":{
@@ -90,7 +90,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0,
 		"energy":200, 
-		"energyRegen":50
+		"energyRegen":50,
 		"tenacity":0,
 	},
 	"Alistar": {
@@ -119,7 +119,7 @@ champions = {
 		"abilityPower":0,
 		"CDR":0,
 		"energy":0,
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
         },
 	"Amumu": {
@@ -148,7 +148,7 @@ champions = {
 		"abilityPower":0,
 		"CDR":0,
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Anivia": {
@@ -177,7 +177,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0,
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Annie": {
@@ -206,7 +206,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Ashe": {
@@ -235,7 +235,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Aurelion Sol": {
@@ -264,7 +264,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Azir": {
@@ -293,7 +293,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Bard": {
@@ -322,7 +322,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Blitzcrank": {
@@ -351,7 +351,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Brand": {
@@ -380,7 +380,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Braum": {
@@ -409,7 +409,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Caitlyn": {
@@ -438,7 +438,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Camille": {
@@ -467,7 +467,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Cassiopeia": {
@@ -496,7 +496,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Cho'Gath": {
@@ -525,7 +525,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Corki": {
@@ -554,7 +554,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Darius": {
@@ -583,7 +583,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Diana": {
@@ -612,7 +612,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Dr. Mundo": {
@@ -641,7 +641,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Draven": {
@@ -670,7 +670,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Ekko": {
@@ -699,7 +699,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Elise": {
@@ -728,7 +728,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Evelynn": {
@@ -757,7 +757,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Ezreal": {
@@ -786,7 +786,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Fiddlesticks": {
@@ -815,7 +815,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Fiora": {
@@ -844,7 +844,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Fizz": {
@@ -873,7 +873,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Galio": {
@@ -902,7 +902,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Gangplank": {
@@ -931,7 +931,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Garen": {
@@ -960,7 +960,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Gnar": {
@@ -989,7 +989,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Gragas": {
@@ -1018,7 +1018,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Graves": {
@@ -1047,7 +1047,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Hecarim": {
@@ -1076,7 +1076,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Heimerdinger": {
@@ -1105,7 +1105,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Illaoi": {
@@ -1134,7 +1134,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Irelia": {
@@ -1163,7 +1163,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Ivern": {
@@ -1192,7 +1192,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Janna": {
@@ -1221,7 +1221,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Jarvan IV": {
@@ -1250,7 +1250,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Jax": {
@@ -1279,7 +1279,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Jayce": {
@@ -1308,7 +1308,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Jhin": {
@@ -1337,7 +1337,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Jinx": {
@@ -1366,7 +1366,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Kai'Sa": {
@@ -1395,7 +1395,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Kalista": {
@@ -1424,7 +1424,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Karma": {
@@ -1453,7 +1453,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Karthus": {
@@ -1482,7 +1482,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Kassadin": {
@@ -1511,7 +1511,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Katarina": {
@@ -1540,7 +1540,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Kayle": {
@@ -1569,7 +1569,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Kayn": {
@@ -1598,7 +1598,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Kennen": {
@@ -1627,7 +1627,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Kha'Zix": {
@@ -1656,7 +1656,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Kindred": {
@@ -1685,7 +1685,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Kled": {
@@ -1714,7 +1714,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Kog'Maw": {
@@ -1743,7 +1743,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"LeBlanc": {
@@ -1772,7 +1772,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Lee Sin": {
@@ -1801,7 +1801,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Leona" :{
@@ -1830,7 +1830,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Lissandra": {
@@ -1859,7 +1859,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Lucian": {
@@ -1888,7 +1888,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Lulu": {
@@ -1917,7 +1917,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Lux": {
@@ -1946,7 +1946,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Malphite": {
@@ -1975,7 +1975,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Malzahar": {
@@ -2004,7 +2004,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Maokai": {
@@ -2033,7 +2033,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Master Yi": {
@@ -2062,7 +2062,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Miss Fortune": {
@@ -2091,7 +2091,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Mordekaiser": {
@@ -2120,7 +2120,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Morgana": {
@@ -2149,7 +2149,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Nami": {
@@ -2178,7 +2178,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Nasus": {
@@ -2207,7 +2207,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Nautilus": {
@@ -2236,7 +2236,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Neeko": {
@@ -2265,7 +2265,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Nidalee": {
@@ -2294,7 +2294,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Nocturne": {
@@ -2323,7 +2323,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Nunu & Willump": {
@@ -2352,7 +2352,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Olaf": {
@@ -2381,7 +2381,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Orianna": {
@@ -2410,7 +2410,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Ornn": {
@@ -2439,7 +2439,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Pantheon": {
@@ -2468,7 +2468,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Poppy": {
@@ -2497,7 +2497,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Pyke": {
@@ -2526,7 +2526,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Quinn": {
@@ -2555,7 +2555,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Rakan": {
@@ -2584,7 +2584,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Rammus": {
@@ -2613,7 +2613,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Rek'Sai": {
@@ -2642,7 +2642,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Renekton": {
@@ -2671,7 +2671,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Rengar": {
@@ -2700,7 +2700,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Riven": {
@@ -2729,7 +2729,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Rumble": {
@@ -2758,7 +2758,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Ryze": {
@@ -2787,7 +2787,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Sejuani": {
@@ -2816,7 +2816,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Shaco": {
@@ -2845,7 +2845,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Shen": {
@@ -2874,7 +2874,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Shyvana": {
@@ -2903,7 +2903,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Singed": {
@@ -2932,7 +2932,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Sion": {
@@ -2961,7 +2961,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Sivir": {
@@ -2990,7 +2990,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Skarner": {
@@ -3019,7 +3019,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Sona": {
@@ -3048,7 +3048,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Soraka": {
@@ -3077,7 +3077,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Swain": {
@@ -3106,7 +3106,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Syndra": {
@@ -3135,7 +3135,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Tahm Kench": {
@@ -3164,7 +3164,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Taliyah": {
@@ -3193,7 +3193,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Talon": {
@@ -3222,7 +3222,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Taric": {
@@ -3251,7 +3251,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Teemo": {
@@ -3280,7 +3280,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Thresh": {
@@ -3309,7 +3309,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Tristana": {
@@ -3338,7 +3338,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Trundle": {
@@ -3367,7 +3367,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Tryndamere": {
@@ -3396,7 +3396,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Twisted Fate": {
@@ -3425,7 +3425,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Twitch": {
@@ -3454,7 +3454,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Udyr": {
@@ -3483,7 +3483,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Urgot": {
@@ -3512,7 +3512,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Varus": {
@@ -3541,7 +3541,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Vayne": {
@@ -3570,7 +3570,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Veigar": {
@@ -3599,7 +3599,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Vel'Koz": {
@@ -3628,7 +3628,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Vi": {
@@ -3657,7 +3657,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Viktor": {
@@ -3686,7 +3686,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Vladimir": {
@@ -3715,7 +3715,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Volibear": {
@@ -3744,7 +3744,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Warwick": {
@@ -3773,7 +3773,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Wukong": {
@@ -3802,7 +3802,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Xerath": {
@@ -3831,7 +3831,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Xin Zhao": {
@@ -3860,7 +3860,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Yasuo": {
@@ -3889,7 +3889,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Yorick": {
@@ -3918,7 +3918,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Zac": {
@@ -3947,7 +3947,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Zed": {
@@ -3976,7 +3976,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Ziggs": {
@@ -4005,7 +4005,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Zilean": {
@@ -4034,7 +4034,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Zoe": {
@@ -4063,7 +4063,7 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 	"Zyra": {
@@ -4092,28 +4092,13 @@ champions = {
 		"abilityPower":0, 
 		"CDR":0, 
 		"energy":0, 
-		"energyRegen":0
+		"energyRegen":0,
 		"tenacity":0,
 	},
 }
 
 
-def lowercase_all_dict_items():
-	"""Convert all keys, values, and keys of values to lowercattackSpeede in the
-	champions dictionary for user input validation. O(n*m) time O(1) space.
-	"""
-	champions = {key.lower(): value for key, value in champions.items()}
-	for dictionary in champions:
-		champions[dictionary] = {key.lower(): value for key, value in champions[dictionary].items()}
-
-lowercase_all_dict_items()
-
-champions = {key.lower(): value for key, value in champions.items()}
-
-for dictionary in champions:
-	champions[dictionary] = {key.lower(): value for key, value in champions[dictionary].items()}
-
-
+'''
 items = {
 	"Abyssal Mask":{
 		"hp":350, 
@@ -4121,9 +4106,10 @@ items = {
 		"mr":55, 
 		"CDR":0.10, 
 		"goldCost":3000
-		"additionalEffects":'''"UNIQUE Passive - Eternity: 15% of damage taken from champions is
-		gained as Mana. Spending Mana restores 20% of the cost as Health, up to 25 per spell cast.
-		UNIQUE Aura: Neary enemy champions take 15% more magic damage."'''
+		"additionalEffects":
+        #"UNIQUE Passive - Eternity: 15% of damage taken from champions is
+		#gained as Mana. Spending Mana restores 20% of the cost as Health, up to 25 per spell cast.
+		#UNIQUE Aura: Neary enemy champions take 15% more magic damage."
 	},
 	"Adaptive Helm":{
 		"hp":350,
@@ -4140,7 +4126,7 @@ items = {
 	"Aether Wisp":{
 		"abilityPower":30,
 		"moveSpeed":"0.05%",
-		"additionalEffects":'''UNIQUE Passive: +5% Movement Speed''',
+		"additionalEffects":UNIQUE Passive: +5% Movement Speed,
 	},
 	"Amplifying Tome":{
 		"abilityPower":20,
@@ -4202,7 +4188,7 @@ items = {
 	"Berserker's Greaves":{
 		"attackSpeed":"35%",
 		"moveSpeed":45,
-		"additionalEffects":'''UNIQUE Passive - Enhanced Movement: +45 Movement Speed''',
+		"additionalEffects":UNIQUE Passive - Enhanced Movement: +45 Movement Speed,
 	},
 	"Bilgewater Cutlass":{
 		"attackDamage":25,
@@ -4245,7 +4231,7 @@ items = {
 	"Brawler's Gloves":{
 		"critChance":"10%",
 		"goldCost":400,
-		"additionalEffects":'''UNIQUE Passive: +10% Critical Strike Chance''',
+		"additionalEffects":UNIQUE Passive: +10% Critical Strike Chance,
 	},
 	"Broken Stopwatch":{
 		
@@ -4447,7 +4433,7 @@ items = {
 		"abilityPower":35,
 		"CDR":"10%",
 		"goldCost":900,
-		"additionalEffects":'''UNIQUE Passive: 10% Cooldown Reduction''',
+		"additionalEffects":UNIQUE Passive: 10% Cooldown Reduction,
 	},
 	"Fire at Will":{},
 	"Flash Zone":{},
@@ -4762,3 +4748,4 @@ items = {
 	"Zhonya's Paradox":{},
 	"Zz'Rot Portal":{},
 }
+'''
